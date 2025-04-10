@@ -59,6 +59,14 @@ margin-bottom: 10px;
 
 }
 
+@media (max-width: 545px) {
+.info {
+    display:block;
+    text-align: center;
+}
+
+}
+
 .card {
 
     border-radius: 20px;
@@ -135,14 +143,24 @@ padding: 0%;
 .form-row {
 margin-bottom: 10px;
 display: flex;
-
-
 }
 
 .form-row .form-group {
     /* display:inline-block; */
     margin-right: 20px;
     width: 50%;
+}
+
+@media (max-width: 545px) {
+    .form-row {
+        margin-bottom: 10px;
+        display: block;
+        }
+        .form-row.form-group {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
 }
 
 .form-group lable {
